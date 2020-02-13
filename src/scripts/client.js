@@ -16,7 +16,7 @@ const main = async () => {
     });
 
     try {
-        await VoxeetSDK.initialize('customerKey', 'customerSecret');
+        await VoxeetSDK.initialize('ZWo2YzdlOWdqOTkwNA==', 'b2VkZm11Z2N2cThoOXVycGltaGpibTBrNQ==');
         await VoxeetSDK.session.open({ name: randomName });
         initUI();
     } catch (e) {
